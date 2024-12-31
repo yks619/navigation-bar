@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+
+</head>
+
+<body class=" bg-cover bg-center h-screen text-white p-4">
+    <header class="bg-orange-500">
+        <nav class="flex items-center justify-between px-12 h-16 lg:gap-16">
+            <img src="image and icons/download.jpg" alt="" class="h-[50px] w-[50px]">   
+            <div
+                class=" dropdown-menu absolute top-20 left-0 max-lg:bg-lime-500/50 w-full flex flex-col gap-6 items-center py-2 text-lg font-semibold lg:static lg:flex-row lg:justify-between">
+                <ul class="flex flex-col items-center gap-6 lg:flex-row lg:gap-8">
+                    <li class="hover:text-green-400">Home</li>
+                    <li class="hover:text-green-400">Service</li>
+                    <li class="hover:text-green-400">About</li>
+                    <li class="hover:text-green-400">Career</li>
+                </ul>
+                <div class="flex flex-col items-center gap-6  lg:flex-row lg:gap-8">
+                    <button class=" bg-lime-400 hover:bg-indigo-500/50 rounded-lg px-2 py-2 "><a href="login.html" class="cursor-pointer">Log In
+                        </a></button>
+                    <button class="bg-lime-400 hover:bg-indigo-500/50  rounded-lg px-2 py-2"><a href="signup.html" class="cursor-pointer">Sign
+                            Up </a></button>
+
+                </div>
+            </div>
+            <div class="toggle-menu lg:hidden ">
+                <box-icon name='menu'></box-icon>
+            </div>
+        </nav>
+    </header>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
